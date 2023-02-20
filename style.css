@@ -36,3 +36,23 @@ html {
     letter-spacing: 0.2rem;
     text-shadow: 0 0.2rem 0.5rem #888;
 }
+
+.nav-list {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-item {
+    margin-top: 2rem;
+    text-align: center;
+    width: 26vw;
+}
+
+.nav-link {
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #245f9b;
+    letter-spacing: 0.1rem;
+    text-shadow: 0 0.2rem 0.5rem #b8b8b8;
+}
