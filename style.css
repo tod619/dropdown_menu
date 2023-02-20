@@ -56,3 +56,33 @@ html {
     letter-spacing: 0.1rem;
     text-shadow: 0 0.2rem 0.5rem #b8b8b8;
 }
+
+.dropdown {
+    margin-top: 1rem;
+    background-color: #fff;
+    position: relative;
+    z-index: 100;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.dropdown-item {
+    text-align: left;
+    padding: 2rem 2rem 0 2rem;
+}
+
+.dropdown-item:last-child {
+    padding-bottom: 2rem; 
+}
+
+.dropdown-link {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    text-transform: uppercase;
+    color: #245f9b;
+}
+
+.dropdown p {
+    font-size: 1.6rem;
+    color: #5f6061;
+}
